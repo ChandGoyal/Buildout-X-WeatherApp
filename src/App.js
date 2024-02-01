@@ -60,7 +60,7 @@ const WeatherDisplay = ({ city }) => {
 
   return (
     <div className="weather-display">
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
       {!loading && weatherData && (
         <div className="weather-cards">
           <WeatherCard
